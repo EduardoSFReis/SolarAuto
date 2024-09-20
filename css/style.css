@@ -447,6 +447,11 @@ h6,
     height: auto; /* Mantém a proporção das imagens */
     border-radius: 10px; /* Borda arredondada */
 }
+.galeria-imagens_img_1 {
+    width: 40%; /* Largura fixa para as imagens, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 10px; /* Borda arredondada */
+}
 .imagens_img {
     width: 49%; /* Largura fixa para as imagens, ajuste conforme necessário */
     height: auto; /* Mantém a proporção das imagens */
