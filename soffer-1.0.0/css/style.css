@@ -435,4 +435,27 @@ h6,
 .footer .copyright a:hover,
 .footer .footer-menu a:hover {
     color: var(--secondary);
+}.galeria-imagens {
+    display: flex;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens na página */
+    flex-wrap: wrap; /* As imagens irão quebrar linha caso não caibam na mesma linha */
+}
+
+.galeria-imagens_img {
+    width: 80%; /* Largura fixa para as imagens, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 10px; /* Borda arredondada */
+}
+.imagens_img {
+    width: 49%; /* Largura fixa para as imagens, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+@media (max-width: 768px) {
+    .galeria-imagens {
+        flex-direction: column; /* Em telas menores, as imagens ficarão em coluna */
+        align-items: center;
+    }
 }
